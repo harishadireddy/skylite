@@ -79,7 +79,7 @@ body .nav .container li {
   text-decoration: none;
   list-style: none;
   font-size: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body .nav .container li a:link {
@@ -108,7 +108,8 @@ body .cover video {
 
 body .cover .vdata {
   position: absolute;
-  top: 20%;
+  top: 30%;
+  left: 30%;
   font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   color: white;
@@ -130,7 +131,7 @@ body .panel {
           justify-content: center;
   width: 100%;
   height: 38rem;
-  background-image: url("./one/jan.png");
+  background-image: url("..assets/one/jan.png");
   background-repeat: none;
   padding-top: 6rem;
   color: black;
@@ -188,17 +189,17 @@ body .poster .b1 {
 }
 
 body .poster .item1 {
-  background: url("./one/ima.png");
+  background: url("../assets/one/ima.png");
   background-size: cover;
 }
 
 body .poster .item2 {
-  background: url("./one/may.png");
+  background: url("../assets/one/may.png");
   background-size: cover;
 }
 
 body .poster .item3 {
-  background: url("./one/june.png");
+  background: url("../assets/one/june.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -215,7 +216,7 @@ body .cards {
 }
 
 body .cards .start {
-  background-image: url("./one/feb.png");
+  background-image: url("../assets/one/feb.png");
   background-size: cover;
 }
 

@@ -90,6 +90,19 @@ body .nav .container li a:hover {
   text-decoration: none;
 }
 
+body .cover {
+  height: 40rem;
+  width: 100%;
+  background-size: cover;
+}
+
+body .cover video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 body .panel {
   display: -webkit-box;
   display: -ms-flexbox;

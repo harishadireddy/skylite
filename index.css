@@ -96,6 +96,7 @@ body .cover {
   height: 40rem;
   width: 100%;
   background-size: cover;
+  position: relative;
 }
 
 body .cover video {
@@ -103,6 +104,14 @@ body .cover video {
      object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+body .cover .vdata {
+  position: absolute;
+  top: 20%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  color: white;
 }
 
 body .panel {

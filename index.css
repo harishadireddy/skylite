@@ -48,6 +48,8 @@ body .nav {
   height: 5rem;
   width: 100%;
   position: fixed;
+  overflow: hidden;
+  z-index: 9999;
 }
 
 body .nav .logo {
